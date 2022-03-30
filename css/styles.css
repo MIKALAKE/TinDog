@@ -1,0 +1,168 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: 'Ubuntu';
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  padding-bottom: 12%;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Navbar */
+.navbar {
+  padding: 0 0 7rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light', sans-serif;
+}
+
+/* Download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+  font-family: 'Ubuntu';
+}
+
+/* title imagine */
+.title-imagine {
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+/* Feature section */
+#features {
+  padding: 2%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 8%;
+}
+
+.icons {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icons:hover {
+  color: #ff4c68;
+}
+
+/* testimonial */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-images {
+  width: 15%;
+  margin: 10px 20px 15px;
+}
+
+.carousel-item {
+  padding: 7%;
+}
+
+/* priceing */
+#pricing {
+  padding: 5% 10%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Call to action */
+#cta {
+  background-color: #ff4c68;
+  padding: 5% 7%;
+}
+
+.cta-title {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+}
+
+/*  Footer  */
+#footer {
+  background-color: #fff;
+  padding: 2%;
+  font-family: 'Ubuntu';
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-imagine {
+    position: static;
+    transform: rotate(0);
+  }
+}
